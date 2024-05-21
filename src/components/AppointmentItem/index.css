@@ -1,0 +1,42 @@
+.list-card {
+  border: 2px solid #b5b7c4;
+  height: 110px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 7px;
+  margin-right: 7px;
+}
+
+@media screen and (max-width: 576px) {
+  .list-card {
+    width: 150px;
+  }
+}
+
+.tit-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-head {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #171f46;
+}
+
+.list-img {
+  width: 30px;
+}
+.date-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #b5b7c4;
+}
+
+.str-btn {
+  border: none;
+  background-color: transparent;
+}
